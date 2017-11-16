@@ -7,7 +7,3 @@ def my_collect(collection)
   end
   new_collection
 end
-
-countries = ['greece', 'italy', 'germany', 'france']
-my_collect(countries) do |country| country.capitalize
-end
