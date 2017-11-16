@@ -7,3 +7,6 @@ def my_collect(collection)
   end
   new_collection
 end
+
+collection = ['greece', 'italy', 'germany', 'france']
+my_collect(collection) {|country| country.capitalize}
