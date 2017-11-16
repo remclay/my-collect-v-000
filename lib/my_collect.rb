@@ -9,4 +9,5 @@ def my_collect(collection)
 end
 
 collection = ['greece', 'italy', 'germany', 'france']
-my_collect(collection) {|country| country.capitalize}
+my_collect(collection) do |country| country.capitalize
+end
