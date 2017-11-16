@@ -8,6 +8,6 @@ def my_collect(collection)
   new_collection
 end
 
-collection = ['greece', 'italy', 'germany', 'france']
-my_collect(collection) do |country| country.capitalize
+countries = ['greece', 'italy', 'germany', 'france']
+my_collect(countries) do |country| country.capitalize
 end
